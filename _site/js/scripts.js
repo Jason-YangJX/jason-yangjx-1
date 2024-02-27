@@ -393,6 +393,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const buttonEl = document.querySelector('.toggle-theme-button');
     const speechBalloon = document.querySelector('.speech-balloon');
     var currentHour = new Date().getHours();
+    console.assert(currentHour);
 
     // Dark theme is used between 7 PM of last day
     // to 7 AM next day. Otherwise, use light theme

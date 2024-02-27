@@ -1,8 +1,8 @@
 categories:
 
-  - data-filter: 3D Human reconstruction
-    category-name: 3D Human reconstruction
-  - data-filter: 3D Human Avatar
+  - data-filter: *Human*Reconstruction*
+    category-name: 3D Human Reconstruction
+  - data-filter: *Human*Avatar*
     category-name: 3D Human Avatar
 
 

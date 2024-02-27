@@ -393,18 +393,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const buttonEl = document.querySelector('.toggle-theme-button');
     const speechBalloon = document.querySelector('.speech-balloon');
     var currentHour = new Date().getHours();
-    console.assert(currentHour);
+    console.log(currentHour);
 
     // Dark theme is used between 7 PM of last day
     // to 7 AM next day. Otherwise, use light theme
     if (currentHour >= 23 || currentHour < 7) {
         document.body.classList.add('dark-theme');
         buttonEl.innerText = '☀️';
-        speechBalloon.innerText = 'it\'s night, lights off!';
+        speechBalloon.innerText = 'it\'s night, lights off!' + currentHour;
     } else {
         document.body.classList.add('light-theme');
         buttonEl.innerText = '🌙';
-        speechBalloon.innerText = 'it\'s day, lights on!';
+        speechBalloon.innerText = 'it\'s day, lights on!' + currentHour;
     }
 });
 

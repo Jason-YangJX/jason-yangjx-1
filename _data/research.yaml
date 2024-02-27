@@ -1,28 +1,27 @@
 categories:
 
-  - data-filter: perception manipulation
-    category-name: perception + manipulation
-
-  - data-filter: framework
-    category-name: framework
+  - data-filter: 3D Human reconstruction
+    category-name: 3D Human reconstruction
+  - data-filter: 3D Human Avatar
+    category-name: 3D Human Avatar
 
 
 projects:
 
-  - title: Real-Time 3D Semantic Scene Perception for Egocentric Robots with Binocular Vision
+  - title: Semantic Human Mesh Reconstruction with Textures
     system-name: 
     gif: assets/img/demo_scene_perception.gif
-    conference: ICRA 2024 (Yokohama, Japan)
+    conference: Conference on Computer Vision and Pattern Recognition (CVPR), 2024
     conference-web: https://2024.ieee-icra.org/
-    status: Under Review
-    authors: <u>Khang Nguyen</u>, Tuan Dang, Manfred Huber.
+    status: Accepted
+    authors: Xiaoyu Zhan, <u>Jianxin Yang</u>, Yuanqi Li, Jie Guo, Yanwen Guo*, and Wenping Wang*
     pdf: 
-    code: https://github.com/mkhangg/semantic_scene_perception
-    demo: https://youtu.be/-dho7l_r56U
+    code: https://github.com/ZhanxyR/SHERT
+    demo: https://zhanxy.xyz/projects/shert/
     slides: 
     talk: 
-    abstract-less: Perceiving a three-dimensional (3D) scene with multiple objects while moving indoors is essential for vision-based mobile cobots, especially for enhancing their manipulation tasks. In this work, we present an end-to-end pipeline with instance segmentation, feature matching, and point-set registration for egocentric robots with binocular vision, and demonstrate the robot's 
-    abstract-more: grasping capability through the proposed pipeline. First, we design an RGB image-based segmentation approach for single-view 3D semantic scene segmentation, leveraging common object classes in 2D datasets to encapsulate 3D points into point clouds of object instances through corresponding depth maps. Next, 3D correspondences of two consecutive segmented point clouds are extracted based on matched keypoints between objects of interest in RGB images from the prior step. In addition, to be aware of spatial changes in 3D feature distribution, we also weigh each 3D point pair based on the estimated distribution using kernel density estimation (KDE), which subsequently gives robustness with less central correspondences while solving for rigid transformations between point clouds. Finally, we test our proposed pipeline on the 7-DOF dual-arm Baxter robot with a mounted Intel RealSense D435i RGB-D camera. The result shows that our robot can segment objects of interest, register multiple views while moving, and grasp the target object.
-    tag: more_scene_perception
-    category: perception manipulation
+    abstract-less: The field of 3D detailed human mesh reconstruction has made significant progress in recent years. However, current methods still face challenges when used in industrial applications due to unstable results, low-quality meshes, and a lack of UV unwrapping and skinning weights. In this paper, we present SHERT, a novel pipeline that can reconstruct semantic human meshes with textures and high-precision details.  
+    abstract-more: SHERT applies semantic and normal-based sampling between the detailed surface (e.g. mesh and SDF) and the corresponding SMPL-X model to obtain a partially sampled semantic mesh and then generates the complete semantic mesh by our specifically designed self-supervised completion and refinement networks. Using the complete semantic mesh as a basis, we employ a texture diffusion model to create human textures that are driven by both images and text. Our reconstructed meshes have stable UV unwrapping, high-quality triangle meshes, and consistent semantic information. The given SMPL-X model provides semantic information and shape priors, allowing SHERT to perform well even with incorrect and incomplete inputs. The semantic information also makes it easy to substitute and animate different body parts such as the face, body, and hands. Quantitative and qualitative experiments demonstrate that SHERT is capable of producing high-fidelity and robust semantic meshes that outperform state-of-the-art methods.
+    tag:
+    category: 3D Human reconstruction, 3D Human Avatar
 

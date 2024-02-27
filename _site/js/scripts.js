@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Dark theme is used between 7 PM of last day
     // to 7 AM next day. Otherwise, use light theme
-    if (currentHour >= 19 || currentHour < 7) {
+    if (currentHour >= 23 || currentHour < 7) {
         document.body.classList.add('dark-theme');
         buttonEl.innerText = '☀️';
         speechBalloon.innerText = 'it\'s night, lights off!';

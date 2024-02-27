@@ -10,7 +10,7 @@ projects:
 
   - title: Semantic Human Mesh Reconstruction with Textures
     system-name: 
-    gif: assets/img/demo_scene_perception.gif
+    gif: assets/img/shert_teaser.png
     conference: Conference on Computer Vision and Pattern Recognition (CVPR), 2024
     conference-web: https://2024.ieee-icra.org/
     status: Accepted

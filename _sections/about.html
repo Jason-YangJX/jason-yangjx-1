@@ -2,8 +2,8 @@
 
 <div class="row mb-4">
     <div class="col-lg-2 col-md-4">
-        <div class="ring-container">
-            <div class="ring">
+        <!-- <div class="ring-container">
+            <div class="ring"> -->
                 <div class="hollow-ring">
                     <img class="profile-image" src="{{ site.data.about.profile-pic }}" alt="{{ site.data.about.name }}">
                     {% if site.data.about.emoji %} 
@@ -13,8 +13,8 @@
                         </div> 
                     {% endif %}
                 </div>
-            </div>
-        </div>
+            <!-- </div>
+        </div> -->
         <hr>
         <div class="social-icons">	
             {% if site.data.about.scholar %} <a class="social-icon" href="{{ site.data.about.scholar }}" target="_blank" rel="noopener" title="Google Scholar"><i class="fa fa-graduation-cap" style="font-size: 35px; color: #4285f4"></i></a> {% endif %}
@@ -30,6 +30,8 @@
         <h2>{{ site.data.about.name }} {% if site.data.about.pronunciation %}<span class="text-primary">{{ site.data.about.pronunciation }}</span>{% endif %}</h2>
         <!-- {% if site.data.about.email %} <a id="copyLink" class="social-icon" href="mailto: {{ site.data.about.email }}" email = "{{ site.data.about.email }}" target="_blank" rel="noopener" title="Email"><i class="far fa-envelope" style="font-size: 35px; color: #D44638"></i></a> {% endif %} -->
         <p>  <a  href="{{ site.data.about.lab-url }}" target="_blank" rel="noopener" title="lab-url"> {{ site.data.about.lab-name }}</a></p>
+        <p>  <a  href="{{ site.data.about.department-url }}" target="_blank" rel="noopener" title="lab-url"> {{ site.data.about.department-name }}</a></p>
+        <p>  <a  href="{{ site.data.about.university-url }}" target="_blank" rel="noopener" title="lab-url"> {{ site.data.about.university-name }}, Nanjing, China</a></p>
         <p onclick="copyTextToClipboard()">
             <b>Email</b>:
             <a style="color: rgb(189, 93, 56); cursor: pointer;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none'">

@@ -3,12 +3,16 @@ name: Jianxin Yang 杨建新
 profile-pic: assets/img/avatar_yjx.jpg
 pronunciation:
 lab-name: NJU Meta Graphics & 3D Vision Lab
+department-name: Department of Computer Science and Technology
+university-name: Nanjing University
 # emoji indicator
 emoji: 🍀
 desc-emoji: four-leaf clover
 
 # social links
 lab-url: http://www.njumeta.com/
+department-url: https://cs.nju.edu.cn/main.htm
+university-url: https://www.nju.edu.cn/
 scholar: 
 researchgate: 
 email: jianxin-yang@smail.nju.edu.cn
@@ -19,6 +23,7 @@ resume:
 
 # about me
 
-first-paragraph: I am currently a second-year master's student at  <a href="http://www.njumeta.com/" target="_blank" rel="noopener">Meta Graphics & 3D Vision Lab</a> in Nanjing University, supervised by <a href="https://cs.nju.edu.cn/ywguo/index.htm" target="_blank" rel="noopener">Prof.Yanwen Guo</a>.
-second-paragraph: 
-research-interest: I do researches in 3D computer vision, mainly focusing on 3D human reconstruction and avatar.
+first-paragraph: I am currently a second-year master's student(2022 - Now) at Meta Graphics & 3D Vision Lab in Nanjing University, supervised by <a href="https://cs.nju.edu.cn/ywguo/index.htm" target="_blank" rel="noopener">Prof.Yanwen Guo</a>.
+second-paragraph: My research interest is 3D computer vision, mainly focusing on 3D human reconstruction and avatar. Currently I am working on reconstructing high-fidelity human avatars from single-view RGB images or monocular videos.
+research-interest: I will graduate in 2025 and apply for a job in relevant positions in the spring of 2024. Welcome to contact me via email.
+job-looking:

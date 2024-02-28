@@ -70,7 +70,7 @@ code {
     box-sizing: border-box;
     position: relative;
 }
-.ring::before {
+/* .ring::before {
     content: '';
     position: absolute;
     top: 0;
@@ -82,7 +82,7 @@ code {
     box-sizing: border-box;
     background: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
     mask-composite: exclude;
-}
+} */
 .hollow-ring {
     width: 280px;
     height: 280px;

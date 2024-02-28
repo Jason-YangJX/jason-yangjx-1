@@ -86,7 +86,7 @@ code {
 .hollow-ring {
     width: 280px;
     height: 280px;
-    border-radius: 50%;
+    border-radius: 20%;
     position: absolute;
     top: 50%;
     left: 50%;

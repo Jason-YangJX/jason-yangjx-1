@@ -94,6 +94,16 @@ code {
     background-color: #ffffff;
     z-index: 1;
 }
+.rounded {
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    border-radius: 20px; /* 设置圆角半径 */
+    overflow: hidden; /* 隐藏超出圆角范围的部分 */
+    width: 200px; /* 图片宽度 */
+    height: 200px; /* 图片高度 */
+    z-index: 1;
+}
 
 .rounded-image {
     position: absolute;
@@ -103,6 +113,7 @@ code {
     overflow: hidden; /* 隐藏超出圆角范围的部分 */
     width: 200px; /* 图片宽度 */
     height: 200px; /* 图片高度 */
+    z-index: 2;
 }
 
 .light-theme .hollow-ring {

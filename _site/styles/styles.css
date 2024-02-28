@@ -104,7 +104,7 @@ code {
     transform: translate(-50%, -50%);
     background-color: #ffffff;
     z-index: 1;
-    overflow: hidden; /* 隐藏超出圆角范围的部分 */
+    /* overflow: hidden; */
 }
 
 .rounded-image {
@@ -118,7 +118,7 @@ code {
     transform: translate(-50%, -50%);
     border: 5px solid #ffffff;
     z-index: 2;
-    overflow: hidden; /* 隐藏超出圆角范围的部分 */
+    /* overflow: hidden;*/
 }
 
 .light-theme .hollow-ring {
@@ -139,10 +139,10 @@ code {
     border: 5px solid #ffffff;
     z-index: 2;
 }
-.light-theme .profile-image {
+.light-theme .rounded-image {
     border: 5px solid #ffffff
 }
-.dark-theme .profile-image {
+.dark-theme .rounded-image {
     border: 5px solid #333333
 }
 

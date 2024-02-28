@@ -121,10 +121,10 @@ code {
     /* overflow: hidden;*/
 }
 
-.light-theme .hollow-ring {
+.light-theme .rounded {
     background-color: #ffffff;
 }
-.dark-theme .hollow-ring {
+.dark-theme .rounded{
     background-color: #333333;
 }
 .profile-image {

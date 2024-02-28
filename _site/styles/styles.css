@@ -66,7 +66,7 @@ code {
 .ring {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 20px;
     box-sizing: border-box;
     position: relative;
 }
@@ -77,7 +77,7 @@ code {
     left: 0;
     right: 0;
     bottom: 0;
-    border-radius: 50%;
+    border-radius: 20px;
     padding: 4px;
     box-sizing: border-box;
     background: linear-gradient(to right, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
@@ -86,7 +86,7 @@ code {
 .hollow-ring {
     width: 280px;
     height: 280px;
-    border-radius: 20%;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;

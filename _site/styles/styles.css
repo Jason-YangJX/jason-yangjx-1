@@ -95,25 +95,30 @@ code {
     z-index: 1;
 }
 .rounded {
+    width: 280px;
+    height: 280px;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
-    left: 50%;    
-    border-radius: 20px; /* 设置圆角半径 */
-    overflow: hidden; /* 隐藏超出圆角范围的部分 */
-    width: 200px; /* 图片宽度 */
-    height: 200px; /* 图片高度 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
     z-index: 1;
+    overflow: hidden; /* 隐藏超出圆角范围的部分 */
 }
 
 .rounded-image {
+    width: 280px;
+    height: 280px;
+    /* border-radius: 50%; */
+    border-radius: 20px;
     position: absolute;
     top: 50%;
-    left: 50%;    
-    border-radius: 20px; /* 设置圆角半径 */
-    overflow: hidden; /* 隐藏超出圆角范围的部分 */
-    width: 200px; /* 图片宽度 */
-    height: 200px; /* 图片高度 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #ffffff;
     z-index: 2;
+    overflow: hidden; /* 隐藏超出圆角范围的部分 */
 }
 
 .light-theme .hollow-ring {

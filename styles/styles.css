@@ -66,7 +66,7 @@ code {
 .ring {
     width: 160px;
     height: 160px;
-    border-radius: 50%;
+    border-radius: 20px;
     box-sizing: border-box;
     position: relative;
 }
@@ -86,7 +86,7 @@ code {
 .hollow-ring {
     width: 152px;
     height: 152px;
-    border-radius: 50%;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -103,7 +103,7 @@ code {
 .profile-image {
     width: 152px;
     height: 152px;
-    border-radius: 50%;
+    border-radius: 20px;
     position: absolute;
     top: 50%;
     left: 50%;

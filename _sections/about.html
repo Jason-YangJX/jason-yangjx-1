@@ -29,9 +29,10 @@
     <div class="col-lg-10 col-md-8">
         <h2>{{ site.data.about.name }} {% if site.data.about.pronunciation %}<span class="text-primary">{{ site.data.about.pronunciation }}</span>{% endif %}</h2>
         <!-- {% if site.data.about.email %} <a id="copyLink" class="social-icon" href="mailto: {{ site.data.about.email }}" email = "{{ site.data.about.email }}" target="_blank" rel="noopener" title="Email"><i class="far fa-envelope" style="font-size: 35px; color: #D44638"></i></a> {% endif %} -->
+        <p>  <a  href="{{ site.data.about.lab-url }}" target="_blank" rel="noopener" title="lab-url"> {{ site.data.about.lab-name }}</a></p>
         <p onclick="copyTextToClipboard()">
-            Email: 
-            <a style="color: rgb(181, 9, 172); cursor: pointer;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none'">
+            <b>Email</b>:
+            <a style="color: rgb(189, 93, 56); cursor: pointer;" onmouseover="this.style.textDecoration='underline';" onmouseout="this.style.textDecoration='none'">
                 {{ site.data.about.email }}
             </a>
             (Click to copy)
@@ -57,13 +58,4 @@
             document.body.removeChild(tempInput);
             alert("Copied to clipboard: " + textToCopy);
         }
-    // document.getElementById('copyLink').addEventListener('click', function() {
-    //     var dummy = document.createElement('input');
-    //     document.body.appendChild(dummy);
-    //     dummy.value = document.getElementById('copyLink').getAttribute('email');
-    //     dummy.select();
-    //     document.execCommand('copy');
-    //     document.body.removeChild(dummy);
-    //     alert('邮箱已复制到剪贴板！');
-    // });
 </script>

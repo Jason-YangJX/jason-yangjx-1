@@ -96,6 +96,7 @@ code {
 }
 
 .rounded-image {
+    position: relative;
     border-radius: 10px; /* 设置圆角半径 */
     overflow: hidden; /* 隐藏超出圆角范围的部分 */
     width: 200px; /* 图片宽度 */

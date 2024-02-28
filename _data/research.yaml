@@ -13,7 +13,7 @@ projects:
     conference: Conference on Computer Vision and Pattern Recognition (CVPR), 2024
     conference-web: https://cvpr.thecvf.com/Conferences/2024
     status: Accepted
-    authors: Xiaoyu Zhan, <u>Jianxin Yang</u>, Yuanqi Li, Jie Guo, Yanwen Guo*, and Wenping Wang*
+    authors: Xiaoyu Zhan, <u>Jianxin Yang</u>, Yuanqi Li, Jie Guo, Yanwen Guo*, and Wenping Wang
     pdf: 
     code: https://github.com/ZhanxyR/SHERT
     demo: https://zhanxy.xyz/projects/shert/

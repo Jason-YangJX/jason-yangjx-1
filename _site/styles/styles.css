@@ -121,10 +121,10 @@ code {
     /* overflow: hidden;*/
 }
 
-.light-theme .rounded {
+.light-theme .hollow-ring {
     background-color: #ffffff;
 }
-.dark-theme .rounded{
+.dark-theme .hollow-ring{
     background-color: #333333;
 }
 .profile-image {
@@ -139,10 +139,10 @@ code {
     border: 5px solid #ffffff;
     z-index: 2;
 }
-.light-theme .rounded-image {
+.light-theme .profile-image {
     border: 5px solid #ffffff
 }
-.dark-theme .rounded-image {
+.dark-theme .profile-image {
     border: 5px solid #333333
 }
 

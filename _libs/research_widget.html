@@ -1,9 +1,9 @@
 <div class="project" data-filter="{{ project.category }}">
     <div class="row mb-4">
-        <div class="col-sm-4">
-            <img width="100%" height="auto" class="w-full rounded-lg" src="{{ project.gif }}">
+        <div class="col-sm-4 col-xs-4 col-md-4 col-lg-4">
+            <img width="auto" height="auto" class="w-full rounded-lg" src="{{ project.gif }}">
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-8 col-xs-8 col-md-8 col-lg-8">
             {% if project.system-name %} <b><i>{{ project.system-name }}</i>:</b> {% endif %}
             <b>{{ project.title }}</b>
             <br>

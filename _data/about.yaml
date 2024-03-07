@@ -24,6 +24,6 @@ resume:
 # about me
 
 first-paragraph: I am currently a second-year master's student(2022 - Now) at Meta Graphics & 3D Vision Lab in Nanjing University, supervised by <a href="https://cs.nju.edu.cn/ywguo/index.htm" target="_blank" rel="noopener">Prof.Yanwen Guo</a>.
-second-paragraph: My research interest is 3D computer vision, mainly focusing on 3D human reconstruction and avatar. Currently I am working on reconstructing high-fidelity human avatars from single-view RGB images or monocular videos.
-research-interest:
+second-paragraph:
+research-interest: My research interest is 3D computer vision, mainly focusing on 3D human reconstruction and avatar. Currently I am working on reconstructing high-fidelity human avatars from single-view RGB images or monocular videos.
 job-looking: I will graduate in 2025 and apply for a job in relevant positions in the spring of 2024. Welcome to contact me via email.

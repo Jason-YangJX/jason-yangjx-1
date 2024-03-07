@@ -14,7 +14,7 @@ projects:
     conference-web: https://cvpr.thecvf.com/Conferences/2024
     status: Accepted
     authors: Xiaoyu Zhan, <u>Jianxin Yang</u>, Yuanqi Li, Jie Guo, Yanwen Guo*, and Wenping Wang
-    pdf: 
+    pdf: https://arxiv.org/abs/2403.02561v1
     code: https://github.com/ZhanxyR/SHERT
     demo: https://zhanxy.xyz/projects/shert/
     slides: 
